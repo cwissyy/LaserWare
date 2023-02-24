@@ -10,4 +10,6 @@ Section:NewButton("Fly", "Makes You Fly", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/cwissyy/flybirdie/main/fly.lua"))()
 end)
 
-Section:NewButton("AimLock", "Lock on People!", function()
+Section:NewButton("Aimlock", "Lock!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cwissyy/flybirdie/main/fly.lua"))()
+end)
