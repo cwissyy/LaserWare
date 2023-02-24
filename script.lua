@@ -3,8 +3,8 @@ local Window = Library.CreateLib("                                       Da Hood
 
 
 -- Main
-local Tab = Window:NewTab("Fly")
-local Section = Tab:NewSection("MAIN")
+local Tab = Window:NewTab("Main Scripts")
+local Section = Tab:NewSection("Main Scripts")
 
 Section:NewButton("Fly", "Makes You Fly", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/cwissyy/flybirdie/main/fly.lua"))()
